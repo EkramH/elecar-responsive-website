@@ -122,7 +122,7 @@ img {
 
 .nav__logo {
   align-items: center;
-  column-gap: 0.25rem; /* gap between icon and text */
+  column-gap: 0.25rem; /*gap between icon and text */
   font-weight: var(--font-medium);
   transition: 0.3s;
 }
@@ -136,7 +136,7 @@ img {
 }
 
 .nav__toggle {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   cursor: pointer;
 }
 
@@ -145,7 +145,7 @@ img {
     position: fixed;
     background-color: #ffffff1a;
     top: 0;
-    right: -100%;
+    right: 0;
     width: 100%;
     height: 100%;
     backdrop-filter: blur(96px);
