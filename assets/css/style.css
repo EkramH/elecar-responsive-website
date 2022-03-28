@@ -145,7 +145,7 @@ img {
     position: fixed;
     background-color: #ffffff1a;
     top: 0;
-    right: 0;
+    right: -100%;
     width: 100%;
     height: 100%;
     backdrop-filter: blur(96px);
@@ -180,4 +180,8 @@ img {
   top: 1rem;
   right: 1rem;
   cursor: pointer;
+}
+
+.show-menu {
+  right: 0;
 }
