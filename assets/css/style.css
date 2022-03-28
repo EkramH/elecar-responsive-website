@@ -47,7 +47,7 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  /* background-color: var(--body-color); */
+  background-color: var(--body-color);
   color: var(--text-color);
 }
 
@@ -137,5 +137,47 @@ img {
 
 .nav__toggle {
   font-size: 1.2rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    background-color: #ffffff1a;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(96px);
+    transition: 0.3s;
+  }
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  row-gap: 3rem;
+  padding-top: 9rem;
+}
+
+.nav__link {
+  text-transform: uppercase;
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-medium);
+  transition: 0.3s;
+}
+
+.nav__link:hover {
+  color: var(--first-color);
+}
+
+.nav__close {
+  font-size: 2rem;
+  position: absolute;
+  color: var(--white-color);
+  top: 1rem;
+  right: 1rem;
   cursor: pointer;
 }
