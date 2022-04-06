@@ -304,3 +304,10 @@ img {
     box-shadow: 0 0 12px #02d98a;
   }
 }
+
+/*------------- Change Header Background -------------*/
+.scroll-header{
+  background-color: var(--body-color);
+  border-radius: 0 0 1rem 1rem;
+  box-shadow: 0 2px 2px #030303;
+}
