@@ -312,6 +312,22 @@ img {
   box-shadow: 0 2px 2px #030303;
 }
 
+/*------------- Button -------------*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  padding: 1rem 2rem;
+  border-radius: .25rem;
+  font-size: var(--normal-font-size);
+  transition: .3s;
+}
+
+.button:hover{
+  background-color: var(--first-color-alt);
+}
+
+
 /*------------- About -------------*/
 
 .about__container{
@@ -350,5 +366,9 @@ img {
 
 .about__title{
   text-align: initial;
+  margin-bottom: 2rem;
+}
+
+.about__description{
   margin-bottom: 2rem;
 }
