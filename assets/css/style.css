@@ -97,6 +97,28 @@ img {
   overflow: hidden;
 }
 
+.shape{
+  background-color: hsla(219, 33%, 32%, .5);
+  filter: blur(112px);
+  border-radius: 50%;
+}
+
+.shape__big{
+  width: 400px;
+  height: 400px;
+}
+
+.shape__small{
+  width: 300px;
+  height: 300px;
+}
+
+.shape__smaller{
+  width: 180px;
+  height: 180px;
+  filter: blur(64px);
+}
+
 /*------------- Header -------------*/
 .header {
   width: 100%;
@@ -292,6 +314,20 @@ img {
   animation: button 3s infinite;
 }
 
+.home .shape__big,
+.home .shape__small{
+  position: absolute;
+}
+
+.home .shape__big{
+  left: -9rem;
+  top: -4rem;
+}
+
+.home .shape__small{
+  right: -10rem;
+  bottom: 3rem;
+}
 /* Button Animation */
 @keyframes button {
   0% {
@@ -371,4 +407,25 @@ img {
 
 .about__description{
   margin-bottom: 2rem;
+}
+
+/*------------- Popular -------------*/
+.popular__container{
+  padding-top: 1rem;
+}
+
+.popular__card{
+  position: relative;
+  width: 238px;
+  background-color: var(--container-color);
+  padding: 2.5rem 1.5rem 1.5rem;
+  border-radius: 1rem;
+  margin-bottom: 3.5rem;
+  overflow: hidden;
+}
+
+.popular__card .shape__smaller{
+  position: absolute;
+  top: -2.5rem;
+  left: -2.5rem;
 }
