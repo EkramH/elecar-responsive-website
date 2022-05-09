@@ -429,3 +429,14 @@ img {
   top: -2.5rem;
   left: -2.5rem;
 }
+
+.popular__title,
+.popular__subtitle,
+.popular__img{
+  position: relative;
+}
+
+.popular__title{
+  font-size: var(--h2-font-size);
+  margin-bottom: .25rem;
+}
