@@ -494,3 +494,10 @@ img {
 .popular__card:hover .popular__img{
   transform: translateY(-.25rem);
 }
+
+.swiper-pagination-bullet{
+  background: var(--text-color);
+}
+.swiper-pagination-bullet-active{
+  background-color: var(--first-color);
+}

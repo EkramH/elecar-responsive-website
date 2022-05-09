@@ -8,6 +8,10 @@
     <title>Elecar</title>
     <!-- Remix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- SwiperJs -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -98,7 +102,7 @@
             </div>
         </section>
 
-        <!-- ----- About ----- -->
+        <!-- ----- About Start ----- -->
         <section class="about section" id="about">
             <div class="about__container container grid">
                 <div class="about__group">
@@ -123,12 +127,16 @@
                 </div>
             </div>
         </section>
+        <!-- ----- About End ----- -->
+
+
+        <!-- ----- Popular Start ----- -->
         <section class="popular section" id="popular">
             <h2 class="section__title">Choose Your Electric Car <br> Of The Porsche Brand</h2>
 
-            <div class="popular__container container">
-                <div>
-                    <article class="popular__card">
+            <div class="popular__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
 
                         <h1 class="popular__title">Porsche</h1>
@@ -154,7 +162,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
 
                         <h1 class="popular__title">Porsche</h1>
@@ -180,7 +188,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
 
                         <h1 class="popular__title">Porsche</h1>
@@ -206,7 +214,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
 
                         <h1 class="popular__title">Porsche</h1>
@@ -232,7 +240,7 @@
                         </button>
                     </article>
 
-                    <article class="popular__card">
+                    <article class="popular__card swiper-slide">
                         <div class="shape shape__smaller"></div>
 
                         <h1 class="popular__title">Porsche</h1>
@@ -258,11 +266,16 @@
                         </button>
                     </article>
                 </div>
+                <div class="swiper-pagination"></div>
             </div>
         </section>
+        <!-- ----- Popular End ----- -->
 
 
     </main>
+
+    <!-- SwiperJs -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
     <!-- js -->
     <script src="assets/js/main.js"></script>
