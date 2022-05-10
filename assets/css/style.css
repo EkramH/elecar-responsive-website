@@ -857,3 +857,19 @@ img {
   color: var(--text-color-light);
 }
 
+
+/*------------- ScrollBar -------------*/
+::-webkit-scrollbar{
+  width: .6rem;
+  background-color: hsl(219, 4%, 16%);
+  border-radius: 1rem;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: hsl(219, 4%, 24%);
+  border-radius: 4rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(219, 4%, 32%);
+}
