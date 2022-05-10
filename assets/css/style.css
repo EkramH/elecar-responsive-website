@@ -756,3 +756,104 @@ img {
 .logos__img:hover{
   opacity: 1;
 }
+
+
+/*------------- Footer -------------*/
+.footer{
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .shape__big,
+.footer .shape__small{
+  position: absolute;
+  z-index: -1;
+}
+
+.footer .shape__big{
+  width: 300px;
+  height: 300px;
+  left: -12rem;
+  top: 6rem;
+}
+
+.footer .shape__small{
+  right: -13rem;
+  bottom: -6rem;
+}
+
+.offer__container{
+  row-gap: 2.5rem;
+  position: relative;
+}
+
+.footer__logo{
+  display: inline-flex;
+  align-items: center;
+  column-gap: .25rem;
+  color: var(--title-color);
+  font-size: var(--h2-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 2.5rem;
+  transition: .3s;
+}
+
+.footer__logo i{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.footer__logo:hover{
+  color: var(--first-color);
+}
+
+.footer__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: 1.25rem;
+}
+
+.footer__links{
+  display: flex;
+  flex-direction: column;
+  row-gap: .5rem;
+}
+
+.footer__link,
+.footer__social-link{
+  color: var(--text-color);
+  transition: .3s;
+}
+
+.footer__link:hover{
+  color: var(--title-color);
+}
+
+.footer__social{
+  display: flex;
+  column-gap: 1.5rem;
+}
+
+.footer__social-link{
+  font-size: 1.25rem;
+}
+
+.ri-facebook-line:hover{
+  color: #1877F2;
+}
+
+.ri-instagram-line:hover{
+  color: #E4405F;
+}
+
+.ri-twitter-line:hover{
+  color: #1DA1F2;
+}
+
+.footer__copy{
+  display: block;
+  margin-top: 3.5rem;
+  text-align: center;
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+}
+
