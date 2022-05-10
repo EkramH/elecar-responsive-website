@@ -682,6 +682,7 @@ img {
   transform: translateX(-.25rem);
 }
 
+/* Linked active featured */
 .active-featured{
   background-color: var(--first-color);
 }
@@ -735,4 +736,6 @@ img {
   bottom: 2rem;
   right: -5.5rem;
 }
+
+/*------------- Offer -------------*/
 
