@@ -348,6 +348,7 @@ img {
   box-shadow: 0 2px 2px #030303;
 }
 
+/* scroll active link */
 .active-link{
   color: var(--first-color);
 }
@@ -901,6 +902,104 @@ img {
 
 .show-scroll{
   bottom: 3rem;
+}
+
+
+
+/*------------- Responsive breakpoints -------------*/
+/* Small device */
+@media only screen and (max-width: 320px){
+  .container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .home__car{
+    column-gap: 2rem;
+  }
+
+  .about__card{
+    width: 150px;
+  }
+
+  .offer__container{
+    grid-template-rows: max-content 180px;
+  }
+
+  .offer__img{
+    width: 340px;
+  }
+
+  .logos__container{
+    gap: 2.5rem;
+  }
+}
+
+/* Medium device */
+@media only screen and (min-width: 576px){
+  .about__group{
+    width: 350px;
+    justify-self: center;
+  }
+
+  .features__map{
+    left: 0;
+    right: 0;
+  }
+
+  .featured__content{
+    grid-template-columns: repeat(2, 228px);
+  }
+
+  .offer__container{
+    grid-template-rows: initial;
+    grid-template-columns: .5fr;
+    justify-content: center;
+  }
+
+  .offer__img{
+    position: relative;
+    bottom: initial;
+    right: initial;
+  }
+}
+
+@media only screen and (min-width: 767px){
+  .section{
+    padding: 7rem 0 2rem;
+  }
+
+  .nav{
+     height: calc(var(--header-height) + 1.5rem);  /*header--height = 3.5rem */
+  }
+
+  .nav__toggle,
+  .nav__close{
+    display: none;
+  }
+
+  .nav__list{
+    flex-direction: row;
+    column-gap: 3rem;
+    padding-top: 0;
+  }
+
+  .nav__link{
+    font-size: var(--normal-font-size);
+    text-transform: initial;
+  }
+
+  .about__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .logos__container{
+    gap: 4rem 8rem;
+  }
+
+  .footer__container{
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 
