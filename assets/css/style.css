@@ -348,6 +348,10 @@ img {
   box-shadow: 0 2px 2px #030303;
 }
 
+.active-link{
+  color: var(--first-color);
+}
+
 /*------------- Button -------------*/
 .button{
   display: inline-block;
@@ -898,3 +902,5 @@ img {
 .show-scroll{
   bottom: 3rem;
 }
+
+
