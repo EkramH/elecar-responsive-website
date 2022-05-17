@@ -1002,4 +1002,57 @@ img {
   }
 }
 
+/* Large device */
+@media only screen and (min-width: 1040px){
+  .container{
+    margin-left: auto;
+    margin-right: auto;
+  }
 
+  .shape__big{
+    width: 500px;
+    height: 500px;
+  }
+
+  .shape__small{
+    width: 400px;
+    height: 400px;
+  }
+
+  .home__container{
+    padding-top: 2rem;
+  }
+
+  .home__img{
+    width: 380px;
+  }
+
+  .home__car{
+    column-gap: 7rem;
+  }
+
+  .home__car-icon{
+    font-size: 1.35rem;
+    margin-bottom: 1rem;
+  }
+
+  .about__container{
+    column-gap: 6rem;
+    align-items: center;
+  }
+
+  .about__car,
+  .about__img{
+    width: 480px;
+  }
+
+  .about__card{
+    width: 198px;
+    padding: 1rem 1.25rem;
+  }
+
+  .about__description{
+    padding-right: 4rem;
+    margin-bottom: 3rem;
+  }
+}
